@@ -47,6 +47,15 @@
   will-change: transform, filter;
 }
 
+
+
+@media (max-width: 768px) {
+  .gridMotion-container {
+    width: 250vw;
+    height: 150vh;
+  }
+}
+
 .row__item {
   position: relative;
 }
